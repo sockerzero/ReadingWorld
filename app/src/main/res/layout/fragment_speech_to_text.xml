@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Word Content :"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:paddingLeft="5dp"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:layout_weight="0.45"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ico_mic"
+            android:id="@+id/start_reg"
+            android:layout_weight="0.45"
+            style="@android:style/Widget.ImageButton" />
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/speech"
+        android:hint="Write Text or Speech to text"
+        android:background="@drawable/rounded_border_edittext"
+        android:layout_weight="0.27"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <TextView
+        android:text="Word Type :"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:paddingLeft="5dp"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_weight="0.06" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_border_edittext"
+        android:layout_weight="0.68" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp" />
+
+    <Button
+        android:text="Choose Image"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnImage"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:id="@+id/imageView" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <Button
+        android:text="ADD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAdd"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20sp" />
+</LinearLayout>

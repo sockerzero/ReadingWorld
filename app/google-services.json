@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1004117792623",
+    "firebase_url": "https://readingworld-1b158.firebaseio.com",
+    "project_id": "readingworld-1b158",
+    "storage_bucket": "readingworld-1b158.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004117792623:android:f0b8099a01db7475",
+        "android_client_info": {
+          "package_name": "com.dnd.readingworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004117792623-1tuk478a72gb90jbamlilmelsfevuu0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr5zlUW8sWekBT6PEjdYXEmb7AYZTXKo8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
